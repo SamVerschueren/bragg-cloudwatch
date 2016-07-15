@@ -1,0 +1,43 @@
+{
+  "name": "bragg-cloudwatch",
+  "version": "0.0.0",
+  "description": "CloudWatch middleware for bragg",
+  "license": "MIT",
+  "repository": "SamVerschueren/bragg-cloudwatch",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "clinton && xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "bragg",
+    "framework",
+    "cloudwatch",
+    "logs",
+    "stream",
+    "events",
+    "aws",
+    "lambda",
+    "serverless"
+  ],
+  "dependencies": {
+    "pify": "^2.3.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "clinton": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
