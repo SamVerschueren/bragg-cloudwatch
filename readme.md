@@ -20,7 +20,7 @@ const router = require('bragg-router')();
 const cloudwatch = require('bragg-cloudwatch');
 
 // Listen for the logstream with the filter name `unicorn`
-router.post('dynamodb:unicorn', ctx => {
+router.post('cloudwatch:unicorn', ctx => {
 	console.log(ctx.request.body);
 	//=> [{id: 'eventId1', timestamp: 1440442987000, message: '[ERROR] First error message'}]
 });
